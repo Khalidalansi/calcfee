@@ -74,6 +74,7 @@ npm install --save-dev gh-pages
 3. انشر المشروع:
 ```bash
 npm run deploy
+
 ```
 
 ## التقنيات المستخدمة

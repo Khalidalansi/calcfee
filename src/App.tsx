@@ -393,7 +393,7 @@ function App() {
           <Notification text={notification.text} isError={notification.isError} />
         )}
         <footer className="w-full text-center mt-auto py-6 text-gray-500 dark:text-gray-400 text-base tracking-wide font-tajawal select-none bg-transparent">
-          <span className="opacity-80">جميع الحقوق محفوظة © {new Date().getFullYear()} - Commission Calculator</span>
+          <span className="opacity-80">جميع الحقوق محفوظة © {new Date().getFullYear()} - <a href="https://khalidalansi.github.io" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors underline">Khalid Alansi</a></span>
         </footer>
       </div>
     </div>
